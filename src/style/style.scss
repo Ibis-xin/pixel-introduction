@@ -1,0 +1,49 @@
+* {
+    //border: solid 2px black;
+    text-align: center;
+}
+
+.header {
+    background-color: #4b360b;
+    padding: 1em;
+    li{
+        a{
+            img{
+                height: 50px;
+            }
+        }
+    }
+}
+
+$main-font:'DotGothic16',sans-serif;
+
+body {
+    background-color: #fffff1;
+}
+
+.what-is-pixel {
+    padding: 3em 0em;
+    background-color: #fffff1;
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #4b360b;
+    img{
+        width: 20px;
+    }
+}
+
+$bottom-heihgt:200px;
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    padding: 50px;
+    background-color: #4b360b;
+    height: $bottom-heihgt;
+    width: 100%;
+    img{
+        height: 100px;
+    }
+    
+}
